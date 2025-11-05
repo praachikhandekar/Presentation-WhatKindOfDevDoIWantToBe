@@ -14,7 +14,6 @@ services:
     image: postgres:15
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: ChicagoStyleHotDog
       POSTGRES_DB: workshopdb
     ports:
       - "5432:5432"
